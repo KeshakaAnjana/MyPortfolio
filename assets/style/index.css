@@ -137,13 +137,14 @@ body{
     position: relative;
     width: 80px;
     height: 50px;
-    background: #2e0808;
-    color: #ec7979;
+    background: #190101;
+    color: #c56464;
     margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    box-shadow: 0 0 5px 5px red;
     border: 5px solid #270606;
     left: 50%;
     top: 50%;
@@ -162,28 +163,46 @@ body{
 .ui {
     width: 220px;
     height: 100px;
-    background: #2e0808;
+    background: linear-gradient(to right, #2e0808, #4a1a1a);
     color: #ec7979;
     margin: 5px;
     box-sizing: content-box;
+    transition: background-color 0.3s ease;
+}
+
+.ui:hover {
+    background: linear-gradient(to right, #4a1a1a, #2e0808);
+    color: #ca9d9d;
 }
 
 .web {
     width: 220px;
     height: 100px;
-    background: #2e0808;
+    background: linear-gradient(to right, #2e0808, #4a1a1a);
+    transition: background-color 0.3s ease;
     color: #ec7979;
     margin: 5px;
     box-sizing: content-box;
 }
 
+.web:hover {
+    background: linear-gradient(to right, #4a1a1a, #2e0808);
+    color: #ca9d9d;
+}
+
 .html {
     width: 250px;
     height: 100px;
-    background: #2e0808;
+    background: linear-gradient(to right, #2e0808, #4a1a1a);
+    transition: background-color 0.3s ease;
     color: #ec7979;
     margin: 5px;
     box-sizing: content-box;
+}
+
+.html:hover {
+    background: linear-gradient(to right, #4a1a1a, #2e0808);
+    color: #ca9d9d;
 }
 
 #skill{
