@@ -42,11 +42,13 @@ body{
 }
 
 .nav a{
+    width: fit-content;
+    height: fit-content;
     font-size: 18px;
     color: #edaaaa;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 45px;
+    margin-left: 50px;
 }
 
 .nav a:hover{
@@ -60,6 +62,7 @@ body{
 #about_me>img{
     position: relative;
     left: 100px;
+    top: 20px;
 }
 
 .mydetail>h2{
@@ -67,7 +70,7 @@ body{
     color: #ec3b3b;
     position: absolute;
     left: 550px;
-    top: 60px;
+    top: 50px;
 }
 
 .mydetail>h3{
@@ -75,13 +78,130 @@ body{
     font-size: 2em;
     position: absolute;
     left: 600px;
-    top: 120px;
+    top: 125px;
 }
 
 .mydetail>h4.detail{
     color: #ffffff;
-    font-size: 1.4em;
+    font-size: 1.2em;
     position: absolute;
     left: 600px;
-    top: 165px;
+    top: 170px;
+}
+
+#my{
+    position: absolute;
+    width: 750px;
+    height: 115px;
+    background: #2e0808;
+    color: #ec7979;
+    margin: 5px;
+    box-sizing: content-box;
+    left: 600px;
+    top: 200px;
+}
+
+#my>em{
+    color: #c13333;
+}
+
+.educationH{
+    color: #ffffff;
+    position: absolute;
+    left: 600px;
+    top: 335px;
+}
+
+#educationDetail{
+    position: absolute;
+    width: 750px;
+    height: 75px;
+    background: #2e0808;
+    color: #ec7979;
+    margin: 5px;
+    box-sizing: content-box;
+    left: 600px;
+    top: 355px;
+}
+
+#educationDetail>em{
+    color: #c13333;
+}
+
+#service{
+    position: relative;
+    top: 200px;
+}
+
+#serviceD{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    background: #2e0808;
+    color: #ec7979;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 5px solid #270606;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    padding: 0 60px;
+}
+
+.ui {
+    width: 220px;
+    height: 100px;
+    background: #2e0808;
+    color: #ec7979;
+    margin: 5px;
+    box-sizing: content-box;
+}
+
+.web {
+    width: 220px;
+    height: 100px;
+    background: #2e0808;
+    color: #ec7979;
+    margin: 5px;
+    box-sizing: content-box;
+}
+
+.html {
+    width: 250px;
+    height: 100px;
+    background: #2e0808;
+    color: #ec7979;
+    margin: 5px;
+    box-sizing: content-box;
+}
+
+#skill{
+    position: relative;
+    top: 220px;
+}
+
+#my_works{
+    position: relative;
+    top: 220px;
+}
+
+#gallery{
+    position: relative;
+    top: 220px;
+}
+
+#contact_info{
+    position: relative;
+    top: 220px;
 }
