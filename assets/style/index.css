@@ -62,7 +62,13 @@ body{
 #about_me>img{
     position: relative;
     left: 100px;
-    top: 20px;
+    top: 50px;
+    width: 350px;
+    height: 400px;
+    background-color: #c54f4f;
+    border-radius: 100%;
+    box-shadow: 10px 10px 91px 8px rgb(189, 81, 81);
+
 }
 
 .mydetail>h2{
