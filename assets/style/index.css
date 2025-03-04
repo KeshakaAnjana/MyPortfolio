@@ -130,7 +130,7 @@ body{
 
 #service{
     position: relative;
-    top: 200px;
+    top: 220px;
 }
 
 #serviceD{
@@ -162,8 +162,8 @@ body{
 
 .ui {
     width: 220px;
-    height: 100px;
-    background: linear-gradient(to right, #2e0808, #4a1a1a);
+    height: 170px;
+    background: linear-gradient(to right, #2e0808, #5a2222);
     color: #ec7979;
     margin: 5px;
     box-sizing: content-box;
@@ -171,14 +171,28 @@ body{
 }
 
 .ui:hover {
-    background: linear-gradient(to right, #4a1a1a, #2e0808);
+    background: linear-gradient(to right, #5a2222, #2e0808);
     color: #ca9d9d;
+}
+
+.ui>h5{
+    font-size: 1.2em;
+    color: #fd9595;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.ui>p{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 .web {
     width: 220px;
-    height: 100px;
-    background: linear-gradient(to right, #2e0808, #4a1a1a);
+    height: 170px;
+    background: linear-gradient(to right, #2e0808, #5a2222);
     transition: background-color 0.3s ease;
     color: #ec7979;
     margin: 5px;
@@ -186,14 +200,28 @@ body{
 }
 
 .web:hover {
-    background: linear-gradient(to right, #4a1a1a, #2e0808);
+    background: linear-gradient(to right, #5a2222, #2e0808);
     color: #ca9d9d;
+}
+
+.web>h5{
+    font-size: 1.2em;
+    color: #fd9595;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.web>p{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 .html {
     width: 250px;
-    height: 100px;
-    background: linear-gradient(to right, #2e0808, #4a1a1a);
+    height: 170px;
+    background: linear-gradient(to right, #2e0808, #5a2222);
     transition: background-color 0.3s ease;
     color: #ec7979;
     margin: 5px;
@@ -201,26 +229,59 @@ body{
 }
 
 .html:hover {
-    background: linear-gradient(to right, #4a1a1a, #2e0808);
+    background: linear-gradient(to right, #5a2222, #2e0808);
     color: #ca9d9d;
+}
+
+.html>h5{
+    font-size: 1.2em;
+    color: #fd9595;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.html>p{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 #skill{
     position: relative;
-    top: 220px;
+    top: 340px;
+}
+
+#skillD{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    background: #190101;
+    color: #c56464;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px red;
+    border: 5px solid #270606;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #my_works{
     position: relative;
-    top: 220px;
+    top: 340px;
 }
 
 #gallery{
     position: relative;
-    top: 220px;
+    top: 350px;
 }
 
 #contact_info{
     position: relative;
-    top: 220px;
+    top: 350px;
 }
