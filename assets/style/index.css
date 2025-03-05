@@ -136,7 +136,7 @@ body{
 
 #service{
     position: relative;
-    top: 220px;
+    top: 210px;
 }
 
 #serviceD{
@@ -159,6 +159,8 @@ body{
 
 
 .container {
+    position: relative;
+    top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -256,7 +258,7 @@ body{
 
 #skill{
     position: relative;
-    top: 340px;
+    top: 380px;
 }
 
 #skillD{
@@ -277,17 +279,41 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.skillI{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    box-sizing: border-box;
+    background-color: #2e0808;
+    height: 100px;
+}
+
+.skillI>img{
+    height: auto;
+    width: 70px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.skillI img:hover {
+    width: 85px;
+    height: auto;
+}
+
 #my_works{
     position: relative;
-    top: 340px;
+    top: 450px;
 }
 
 #gallery{
     position: relative;
-    top: 350px;
+    top: 450px;
 }
 
 #contact_info{
     position: relative;
-    top: 350px;
+    top: 450px;
 }
