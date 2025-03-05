@@ -165,7 +165,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 30vh;
-    padding: 0 60px;
+    padding: 0 80px;
 }
 
 .ui {
@@ -305,15 +305,185 @@ body{
 
 #my_works{
     position: relative;
+    top: 600px;
+}
+
+#myworksD{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background: #190101;
+    color: #c56464;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px red;
+    border: 5px solid #270606;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.car_wash {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    box-sizing: border-box;
+    border: 2px solid #ec7171;
+    padding: 30px;
+    margin: 10px;
+    width: 650px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.car_wash img {
+    width: 50%;
+    height: auto;
+}
+
+.carwashcontent {
+    width: 65%;
+    text-align: left;
+}
+
+.car_wash h5 {
+    margin: 10px 0;
+    position: relative;
+    left: 60px;
+    top: -30px;
+}
+
+.car_wash p {
+    margin: 0;
+    position: relative;
+    left: 35px;
+}
+
+.sport_club {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    box-sizing: border-box;
+    border: 2px solid #ec7171;
+    padding: 30px;
+    margin: 10px;
+    width: 650px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sport_club img {
+    width: 50%;
+    height: auto;
+}
+
+.sportclubcontent {
+    width: 65%;
+    text-align: left;
+}
+
+.sport_club h5 {
+    margin: 10px 0;
+    position: relative;
+    left: 60px;
+    top: -30px;
+}
+
+.sport_club p {
+    margin: 0;
+    position: relative;
+    left: 30px;
+}
+
+.phoneshop {
+    position: absolute;
     top: 450px;
+    left: 50px;
+    box-sizing: border-box;
+    border: 2px solid #ec7171;
+    padding: 30px;
+    margin: 10px;
+    width: 650px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phoneshop img {
+    width: 60%;
+    height: auto;
+}
+
+.phoneshopcontent {
+    width: 65%;
+    text-align: left;
+}
+
+.phoneshop h5 {
+    margin: 10px 0;
+    position: relative;
+    left: 60px;
+    top: -30px;
+}
+
+.phoneshop p {
+    margin: 0;
+    position: relative;
+    left: 35px;
+}
+
+.tiatactoe {
+    position: absolute;
+    top: 450px;
+    left: 800px;
+    box-sizing: border-box;
+    border: 2px solid #ec7171;
+    padding: 30px;
+    margin: 10px;
+    width: 650px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tiatactoe img {
+    width: 50%;
+    height: auto;
+}
+
+.tictactoecontent {
+    width: 65%;
+    text-align: left;
+}
+
+.tiatactoe h5 {
+    margin: 10px 0;
+    position: relative;
+    left: 60px;
+    top: -30px;
+}
+
+.tiatactoe p {
+    margin: 0;
+    position: relative;
+    left: 30px;
 }
 
 #gallery{
     position: relative;
-    top: 450px;
+    top: 1500px;
 }
 
 #contact_info{
     position: relative;
-    top: 450px;
+    top: 1500px;
 }
