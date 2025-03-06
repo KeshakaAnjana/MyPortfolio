@@ -558,13 +558,39 @@ body{
     left: 1000px;
 }
 
-.contactSocial{
+.contactSocial {
     position: absolute;
-    top: 350px;
+    top: 400px;
     left: 50px;
 }
 
+.contactSocial a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border: 0.2rem solid #dd5d5d;
+    border-radius: 50%;
+    color: #dd5d5d;
+    margin: 5px 15px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+
+.contactSocial a:hover {
+    scale: 1.3;
+    color: black;
+    background-color: #c13333;
+    filter: drop-shadow(0 0 5px #c13333);
+}
+
 .end{
-    position: absolute;
-    top: 500px;
+    position: relative;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
