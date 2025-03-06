@@ -356,6 +356,8 @@ body{
     position: relative;
     left: 60px;
     top: -30px;
+    color: #ea8181;
+    font-size: 1em;
 }
 
 .car_wash p {
@@ -394,6 +396,8 @@ body{
     position: relative;
     left: 60px;
     top: -30px;
+    color: #ea8181;
+    font-size: 1em;
 }
 
 .sport_club p {
@@ -430,8 +434,10 @@ body{
 .phoneshop h5 {
     margin: 10px 0;
     position: relative;
-    left: 60px;
+    left: 30px;
     top: -30px;
+    color: #ea8181;
+    font-size: 1em;
 }
 
 .phoneshop p {
@@ -470,6 +476,8 @@ body{
     position: relative;
     left: 60px;
     top: -30px;
+    color: #ea8181;
+    font-size: 1em;
 }
 
 .tiatactoe p {
