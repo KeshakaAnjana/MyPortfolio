@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #250707;
+    background-color: #1e0606;
     color: white;
     margin: auto;
 }
@@ -17,7 +17,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    padding: 20px 10%;
+    padding: 10px 10%;
     background-color: #120303;
     display: flex;
     justify-content: space-between;
@@ -49,9 +49,11 @@ body{
     font-weight: 500;
     text-decoration: none;
     margin-left: 50px;
+    transition: font-size 0.1s ease, color 0.1s ease;
 }
 
 .nav a:hover{
+    font-size: 22px;
     color: #e16565;
 }
 
@@ -331,7 +333,7 @@ body{
     top: 100px;
     left: 50px;
     box-sizing: border-box;
-    border: 2px solid #ec7171;
+    border: 5px solid #ec7171;
     padding: 30px;
     margin: 10px;
     width: 650px;
@@ -371,7 +373,7 @@ body{
     top: 100px;
     left: 800px;
     box-sizing: border-box;
-    border: 2px solid #ec7171;
+    border: 5px solid #ec7171;
     padding: 30px;
     margin: 10px;
     width: 650px;
@@ -411,7 +413,7 @@ body{
     top: 450px;
     left: 50px;
     box-sizing: border-box;
-    border: 2px solid #ec7171;
+    border: 5px solid #ec7171;
     padding: 30px;
     margin: 10px;
     width: 650px;
@@ -451,7 +453,7 @@ body{
     top: 450px;
     left: 800px;
     box-sizing: border-box;
-    border: 2px solid #ec7171;
+    border: 5px solid #ec7171;
     padding: 30px;
     margin: 10px;
     width: 650px;
@@ -488,10 +490,81 @@ body{
 
 #gallery{
     position: relative;
-    top: 1500px;
+    top: 1450px;
+}
+
+#galleryD{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background: #190101;
+    color: #c56464;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px red;
+    border: 5px solid #270606;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.images{
+    position: relative;
+    top: 50px;
 }
 
 #contact_info{
     position: relative;
-    top: 1500px;
+    top: 1650px;
+}
+
+#contactD{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background: #190101;
+    color: #c56464;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 5px red;
+    border: 5px solid #270606;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contacttitle{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    font-size: 1.5em;
+}
+
+.contactDetails{
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+.dropMsg{
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+}
+
+.contactSocial{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+.end{
+    position: absolute;
+    top: 500px;
 }

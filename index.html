@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Keshaka Anjana</title>
     <link rel="icon" type="image/ico" href="assets/images/photo.ico">
     <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="assets/lib/normalize.css">
 
 </head>
 <body>
@@ -125,30 +128,36 @@
 
 <section id="gallery">
     <div>
-        <h3>Gallery</h3>
-        <img src="assets/images/m1.jpg" alt="image16" width="300">
-        <img src="assets/images/m2.jpeg" alt="image17" width="300">
-        <img src="assets/images/m3.jpeg" alt="image18" width="300">
-        <img src="assets/images/m4.jpeg" alt="image19" width="300">
-        <img src="assets/images/m5.jpg" alt="image20" width="300">
-        <img src="assets/images/m6.jpeg" alt="image21" width="350">
-        <img src="assets/images/m7.jpeg" alt="image22" width="300">
-        <img src="assets/images/m8.jpeg" alt="image23" width="300">
-        <img src="assets/images/m9.jpeg" alt="images24" width="300">
+        <h3 id="galleryD">Gallery</h3>
+        <div class="images">
+            <img src="assets/images/m1.jpg" alt="image16" width="300">
+            <img src="assets/images/m2.jpeg" alt="image17" width="300">
+            <img src="assets/images/m3.jpeg" alt="image18" width="300">
+            <img src="assets/images/m4.jpeg" alt="image19" width="300">
+            <img src="assets/images/m5.jpg" alt="image20" width="300">
+            <img src="assets/images/m6.jpeg" alt="image21" width="350">
+            <img src="assets/images/m7.jpeg" alt="image22" width="300">
+            <img src="assets/images/m8.jpeg" alt="image23" width="300">
+            <img src="assets/images/m9.jpeg" alt="images24" width="300">
+        </div>
     </div>
 </section>
 
 <footer id="contact_info">
     <div>
-        <h3>Contact</h3>
+        <h3 id="contactD">Contact</h3>
         <dl>
-            <dt><b>Contact info,</b></dt>
-            <dd><img src="assets/images/phone.png" alt="image25">+94 77 715 1480</dd>
-            <dd><img src="assets/images/gmail.png" alt="image26">anjanakeshaka2@gmail.com</dd>
-            <dd><img src="assets/images/location.png" alt="image27">119/B Godagama Matara</dd>
+            <div class="contacttitle">
+                <dt><b>Contact info,</b></dt>
+            </div>
+            <div class="contactDetails">
+                <dd><img src="assets/images/phone.png" alt="image25">+94 77 715 1480</dd>
+                <dd><img src="assets/images/gmail.png" alt="image26">anjanakeshaka2@gmail.com</dd>
+                <dd><img src="assets/images/location.png" alt="image27">119/B Godagama Matara</dd>
+            </div>
         </dl>
 
-        <div>
+        <div class="dropMsg">
             <h4>Drop me a massage</h4>
             <div>
                 <span>name</span>
@@ -166,7 +175,7 @@
                 <button type = "submit">submit</button>
             </div>
         </div>
-        <div>
+        <div class="contactSocial">
             <a href="https://www.instagram.com/anjanakeshaka?igsh=aGR2MWRramt2N3Aw&utm_source=qr"><img src="assets/images/instagram.png" title="instagram" alt="image28"></a>
             <a href="https://www.facebook.com/share/12C9dAxJWR9/?mibextid=wwXIfr"><img src="assets/images/facebook.png" title="facebook" alt="image29"></a>
             <a href="https://x.com/anjanakeshaka?s=21"><img src="assets/images/twitter.png" title="twitter" alt="image30"></a>
@@ -174,10 +183,12 @@
             <a href="https://www.youtube.com/@keshakaanjana2578"><img src="assets/images/youtube.png" title="youtube" alt="image32"></a>
             <a href="https://github.com/KeshakaAnjana"><img src="assets/images/github.png" title="github" alt="image33" width="50"></a>
         </div>
+        <div>
+            <p class="end">2025 Keshaka Anjana All rights reserved</p>
+        </div>
     </div>
 </footer>
 </div>
-
-
+<script src="assets/lib/fontawesome-free-6.7.2-web/js/all.min.js"></script>
 </body>
 </html>
