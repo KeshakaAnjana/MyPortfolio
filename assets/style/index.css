@@ -50,6 +50,7 @@ body{
     text-decoration: none;
     margin-left: 50px;
     transition: font-size 0.1s ease, color 0.1s ease;
+    transition-duration: 800ms;
 }
 
 .nav a:hover{
@@ -67,7 +68,7 @@ body{
     top: 50px;
     width: 350px;
     height: 400px;
-    background-color: #c54f4f;
+    background-color: #cd5a5a;
     border-radius: 100%;
     box-shadow: 10px 10px 91px 8px rgb(189, 81, 81);
 
@@ -542,20 +543,26 @@ body{
 .contacttitle{
     position: absolute;
     left: 50px;
-    top: 100px;
+    top: 120px;
     font-size: 1.5em;
 }
 
 .contactDetails{
     position: absolute;
     left: 100px;
-    top: 130px;
+    top: 145px;
 }
 
 .dropMsg{
     position: absolute;
-    top: 130px;
+    top: 120px;
     left: 1000px;
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(to right, #2e0808, #5a2222);
+    color: #ec7979;
+    margin: 5px;
+    box-sizing: content-box;
 }
 
 .contactSocial {
