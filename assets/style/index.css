@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #1e0606;
+    background-color: #000000;
     color: white;
     margin: auto;
 }
@@ -17,8 +17,8 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    padding: 10px 10%;
-    background-color: #120303;
+    padding: 0 10%;
+    background-color: #171717;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,10 @@ body{
 
 .header>img{
     position: absolute;
-    left: 0;
+    left: 40px;
+    width: 65px;
+    box-sizing: border-box;
+    background-color: #292828;
 }
 
 .name {
@@ -35,10 +38,10 @@ body{
     font-size: 2em;
 }
 .first-part {
-    color: #c13333;
+    color: #ff7200;
 }
 .second-part {
-    color: #752b2b;
+    color: #ac5b1b;
 }
 
 .nav a {
@@ -47,7 +50,7 @@ body{
     width: fit-content;
     height: fit-content;
     font-size: 18px;
-    color: #edaaaa;
+    color: #aa6d3c;
     font-weight: 500;
     text-decoration: none;
     margin-left: 50px;
@@ -100,12 +103,10 @@ body{
     top: 50px;
     width: 350px;
     height: 400px;
-    background-color: #cd5a5a;
+    background-color: #fa7631;
     border-radius: 100%;
-    box-shadow: 10px 10px 91px 8px rgb(189, 81, 81);
-}
+    box-shadow: 10px 10px 91px 8px #fa7631;
 
-#about_me>img:hover{
     animation: animate 3.5s ease-in-out infinite;
 }
 
@@ -123,14 +124,14 @@ body{
 
 .mydetail>h2{
     font-size: 3.5em;
-    color: #ec3b3b;
+    color: #ff5800;
     position: absolute;
     left: 550px;
     top: 50px;
 }
 
 .mydetail>h3{
-    color: #ffffff;
+    color: #ffb690;
     font-size: 2em;
     position: absolute;
     left: 600px;
@@ -138,7 +139,7 @@ body{
 }
 
 .mydetail>h4.detail{
-    color: #ffffff;
+    color: #ffb690;
     font-size: 1.2em;
     position: absolute;
     box-sizing: content-box;
@@ -150,8 +151,8 @@ body{
     position: absolute;
     width: 750px;
     height: 115px;
-    background: #2e0808;
-    color: #ec7979;
+    background: #320d00;
+    color: #faa57a;
     margin: 5px;
     box-sizing: content-box;
     left: 600px;
@@ -159,11 +160,11 @@ body{
 }
 
 #my>em{
-    color: #c13333;
+    color: #e14c00;
 }
 
 .educationH{
-    color: #ffffff;
+    color: #fb8c52;
     position: absolute;
     left: 600px;
     top: 335px;
@@ -173,8 +174,8 @@ body{
     position: absolute;
     width: 750px;
     height: 75px;
-    background: #2e0808;
-    color: #ec7979;
+    background: #320d00;
+    color: #faa57a;
     margin: 5px;
     box-sizing: content-box;
     left: 600px;
@@ -182,7 +183,7 @@ body{
 }
 
 #educationDetail>em{
-    color: #c13333;
+    color: #e14c00;
 }
 
 #service{
