@@ -17,8 +17,8 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    padding: 0 10%;
-    background-color: #171717;
+    padding: 0 8%;
+    background-color: #888888;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,10 +27,13 @@ body{
 
 .header>img{
     position: absolute;
-    left: 40px;
-    width: 65px;
+    left: 5px;
+    top: 5px;
+    width: 120px;
+    height: 120px;
     box-sizing: border-box;
-    background-color: #292828;
+    background-color: #737373;
+    border-radius: 100%;
 }
 
 .name {
@@ -38,10 +41,10 @@ body{
     font-size: 2em;
 }
 .first-part {
-    color: #ff7200;
+    color: #222222;
 }
 .second-part {
-    color: #ac5b1b;
+    color: #353535;
 }
 
 .nav a {
@@ -49,9 +52,9 @@ body{
     display: inline-block;
     width: fit-content;
     height: fit-content;
-    font-size: 18px;
-    color: #aa6d3c;
-    font-weight: 500;
+    font-size: 20px;
+    color: #171717;
+    font-weight: bold;
     text-decoration: none;
     margin-left: 50px;
     transition-duration: 1000ms;
@@ -103,9 +106,9 @@ body{
     top: 50px;
     width: 350px;
     height: 400px;
-    background-color: #fa7631;
+    background-color: #1e1e1e;
     border-radius: 100%;
-    box-shadow: 10px 10px 91px 8px #fa7631;
+    box-shadow: 10px 10px 91px 8px #1e1e1e;
 
     animation: animate 3.5s ease-in-out infinite;
 }
@@ -124,14 +127,14 @@ body{
 
 .mydetail>h2{
     font-size: 3.5em;
-    color: #ff5800;
+    color: #ffffff;
     position: absolute;
     left: 550px;
     top: 50px;
 }
 
 .mydetail>h3{
-    color: #ffb690;
+    color: #acacac;
     font-size: 2em;
     position: absolute;
     left: 600px;
@@ -139,7 +142,7 @@ body{
 }
 
 .mydetail>h4.detail{
-    color: #ffb690;
+    color: #acacac;
     font-size: 1.2em;
     position: absolute;
     box-sizing: content-box;
@@ -338,10 +341,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 90px;
+    gap: 80px;
     box-sizing: border-box;
     background-color: #320d00;
-    height: 100px;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    margin: 0;
 }
 
 .skillI>img{
@@ -854,6 +860,22 @@ body{
     }
     .educationH {
         left: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .skillI {
+        gap: 30px; /* Adjust gap for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .skillI > img {
+        width: 50px; /* Adjust size for small screens */
+    }
+
+    .skillI img:hover {
+        width: 65px; /* Adjust hover size for small screens */
     }
 }
 /*///////////////////////////////////////////////////////////////////*/
