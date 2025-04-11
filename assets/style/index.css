@@ -18,7 +18,7 @@ body{
     top: 0;
     left: 0;
     padding: 0 8%;
-    background-color: #888888;
+    background-color: #afaeae;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,12 +27,12 @@ body{
 
 .header>img{
     position: absolute;
-    left: 5px;
-    top: 5px;
-    width: 120px;
-    height: 120px;
+    left: 0;
+    top: 0;
+    width: 105px;
+    height: 95px;
     box-sizing: border-box;
-    background-color: #737373;
+    background-color: #afaeae;
     border-radius: 100%;
 }
 
@@ -137,6 +137,7 @@ body{
     color: #acacac;
     font-size: 2em;
     position: absolute;
+
     left: 600px;
     top: 125px;
 }
@@ -144,6 +145,7 @@ body{
 .mydetail>h4.detail{
     color: #acacac;
     font-size: 1.2em;
+    display: flex;
     position: absolute;
     box-sizing: content-box;
     left: 600px;
@@ -155,7 +157,7 @@ body{
     width: 750px;
     height: 115px;
     background: #320d00;
-    color: #faa57a;
+    color: #fbc2a4;
     margin: 5px;
     box-sizing: content-box;
     left: 600px;
@@ -178,7 +180,7 @@ body{
     width: 750px;
     height: 75px;
     background: #320d00;
-    color: #faa57a;
+    color: #fbc2a4;
     margin: 5px;
     box-sizing: content-box;
     left: 600px;
@@ -217,6 +219,7 @@ body{
     position: relative;
     top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 30vh;
@@ -755,6 +758,7 @@ body{
     .mydetail>h4.detail {
         left: 450px;
         font-size: 1em;
+        position: absolute;
     }
 }
 
@@ -767,7 +771,7 @@ body{
     }
     .mydetail>h2 {
         left: 420px;
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .mydetail>h3 {
         left: 470px;
@@ -775,7 +779,9 @@ body{
     }
     .mydetail>h4.detail {
         left: 470px;
-        font-size: 1em;
+        font-size: 0.8em;
+        position: relative;
+        top: 0;
     }
 }
 
@@ -810,13 +816,14 @@ body{
         margin-top: 10px;
     }
     .mydetail>h4.detail {
-        font-size: 0.6em;
+        font-size: 0.5em;
         position: relative;
         left: 0;
         top: 60px;
         margin-top: 10px;
     }
 }
+
 
 @media all and (max-width: 1200px) {
     #my,
@@ -865,20 +872,24 @@ body{
 
 @media (max-width: 768px) {
     .skillI {
-        gap: 30px; /* Adjust gap for tablets */
+        gap: 30px;
     }
 }
 
 @media (max-width: 480px) {
     .skillI > img {
-        width: 50px; /* Adjust size for small screens */
+        width: 50px;
     }
 
     .skillI img:hover {
-        width: 65px; /* Adjust hover size for small screens */
+        width: 65px;
     }
 }
+
+
+
 /*///////////////////////////////////////////////////////////////////*/
+
 /*@media (max-width: 1200px) {*/
 /*    #service {*/
 /*        top: 180px;*/
